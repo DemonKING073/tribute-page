@@ -1,0 +1,101 @@
+@font-face{
+    font-family:mine;
+    src: url(Pacifico.ttf);
+}
+@font-face{
+    font-family: mero;
+    src: url(font.ttf);
+}
+body{
+    background: #ECEAEA ;
+}
+#headers{
+    text-align: center;
+}
+h1{
+    font-family: mero;
+    font-size: 60px;
+    margin:0;
+}
+h2{
+    font-family: impact;
+    margin: 0;
+    font-size: 30px;
+    padding: 5px;    
+}
+h3{
+    font-family: Cera PROModern;
+    font-size: 20px;
+    padding: 5px;
+    margin:0;
+}
+#page{
+    background: #D1D0D0;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#quote{
+    text-align: center;
+    font-family: 'pacifico', cursive;
+}
+.main {
+    border: 1px solid #A5B9A6;
+    padding: 10px;
+    margin:0 auto;
+    width:87%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Consolas;
+    letter-spacing: 1px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.main img{
+    width: 700px;
+    height: 500px;
+}
+
+#photoQuote{
+    background: #939393 ;
+    font-family: Consolas;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size:15px;
+    margin: 0 auto;
+    width: 80%;
+}
+#roundImage{
+    border-radius: 50%;
+    padding: 1px;
+    border: 15px solid gray;
+    margin-bottom: 10px;
+}
+.timeline {
+    margin: 0 auto;
+    width:87%;
+    font-size: 35px;
+    font-family: System;
+    padding-left: 10px;
+    
+}
+.timeline-2{
+    margin: 0 auto;
+    width:87%;
+    font-size: 15;
+    font-family: Segoe UI;
+}
+#link{
+    text-align: center;
+    font-size: 15;
+    font-family: Segoe UI;
+    padding: 10px;
+}
+#quote{
+    font-family: mine;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
